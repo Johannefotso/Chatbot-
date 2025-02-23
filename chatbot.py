@@ -1,5 +1,6 @@
 import random
 
+#Responses
 responses = {
     "greeting": ["Hello! How can I assist you today?", "Hi there! Need help with something?"],
     "order_status": ["Please provide your order number.", "I can check that for you! What’s your order number?"],
@@ -8,6 +9,7 @@ responses = {
     "unknown": ["I'm sorry, I didn't understand that. Could you please rephrase?", "Hmm, I’m not sure. Let me connect you to a human agent."]
 }
 
+#User Input
 def chatbot_response(user_input):
     user_input = user_input.lower()
     if "hi" in user_input or "hello" in user_input:
